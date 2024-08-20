@@ -1,3 +1,68 @@
-body {
-    font-size: 15pt;
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+
 }
+
+
+body {
+  height:100vh;
+  width:100%;
+  background:url("images/background-pattern-desktop.svg");
+   object-fit: cover ;
+   object-position: center;
+   background-repeat: no-repeat;
+   display:flex;
+   justify-content:center;
+   
+}
+
+.container{
+  width:70%;
+  height:600px;
+  border:none;
+  border:2px solid #eeee;
+  border-radius:20px;
+  border-style:groove;
+  margin-top:180px;
+  background-color:#E6E6E6;
+}
+
+.title{
+  display:flex;
+  font-size:50px;
+  font-weight:bolder;
+  margin:40px;
+  
+  
+}
+.faq-container{
+  margin-top:30px;
+}
+
+.faq-items{
+  width:100%;
+  height:150px;
+  border-bottom:5px solid #eeee;
+  padding:10px;
+}
+h3{
+  font-weight:bold;
+  font-size: 25px;
+  padding:15px
+}
+.button{
+  float:right;
+  margin-top:-10px;
+  padding:10px
+}
+.answers{
+  font-size:18px;
+  padding:15px;
+}
+
+.min{
+  display:none;
+}
+
